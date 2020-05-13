@@ -1,0 +1,83 @@
+#bottom-area
+{
+    text-align: center;
+    
+    position: relative; 
+}
+.img 
+{
+    background-image: url('images/abstract.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+img{
+    width: 50%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+body, html{
+    height: 100%;
+    margin: 0;
+}
+h2, H1
+{
+    font:bold;
+    font-weight: bolder;
+    background-color: orange;
+}
+
+.button
+{
+    background-color: orange; /* Green */
+    border: none;
+    text-decoration: solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#minibox {
+    border-style: double;
+    border-width: medium;
+    BORDER-COLOR: GREEN;
+    border-radius: 5px; 
+    text-align: center;
+    BACKGROUND-COLOR: lightblue;
+}
+
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(118, 108, 160);
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: rgb(118, 108, 160)}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
